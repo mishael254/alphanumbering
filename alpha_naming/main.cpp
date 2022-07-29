@@ -11,6 +11,13 @@ int main() {
 		cout << alpha_num << tab << new_alpha << endl;
 		++alpha_num;
 	
+		
 	}
+	if (alpha_num >= 25) {
+		cout << "This is the end of the numbering\n";
+
+	}
+	else { cout << "25 is not the same as Z\n"; }
+
 
 }
